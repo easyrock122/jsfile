@@ -1,0 +1,45 @@
+let name =prompt("rate todays feeling in 0to100")
+
+
+
+
+let search_bar=document.querySelector(".search_bar");
+
+
+search_bar.addEventListener("keyup",()=> {
+    if(event.keyCode ===13){
+        if (100 >= Number && Number >= 61 ) {
+         alert("오늘의 기분은 좋음");
+        } else if (61 > Number && Number >= 30) {
+         alert("오늘의 기분은 보통");
+         } else {
+         alert("오늘의 기분은 나쁨");
+    }
+}
+})
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="search">
+        <input type="text" class = "search_bar" placeholder="기분의 수치" id="searchbar">
+
+    </div>
+    <script src="fuck.js"></script>
+    
+</body>
+</html>
