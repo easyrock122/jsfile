@@ -11,7 +11,7 @@ b.addEventListener("keyup",()=> {
             }else if(41 > b.value && b.value >= 21){
                 alert("오늘의 기분은 나쁨");
             }else {
-                alert("오늘의 기분은 메우 나쁨");
+                alert("오늘의 기분은 매우 나쁨");
         }
     }
 }
